@@ -1,0 +1,159 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 12px;
+}
+
+h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.checkout {
+    width: 688px;
+    height: 558px;
+    background-color: #fff;
+}
+
+.checkout main {
+    display: flex;
+}
+
+.checkout main .resumos {
+    width: 100px;
+    height: 45%;
+}
+
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px;
+    color: #5e5f5f;
+}
+
+header span {
+    color: #4a4a4a;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+header span strong {
+    font-weight: bold;
+}
+
+header a {
+    background-image: url(../images/x.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+header a span {
+    visibility: hidden;
+}
+
+.cartao {
+    width: 100px;
+    height: 55%;
+}
+
+.cartao .wallet h2 {
+    color: #777879;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.cartao .wallet ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.cartao .wallet li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cartao .wallet li:hover {
+    background-color: #f5f9fd;
+    box-shadow: inset 0 0 2px #d1e2f6;
+    border-radius: 3px;
+}
+
+.cartao .wallet small {
+    display: block;
+    text-align:center;
+    margin-top: 5px;
+}
+
+.cartao .wallet a {
+    text-decoration: none;
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+.cartao .newcard fieldset {
+    border: none;
+    text-align: center;
+}
+
+.cartao .newCard legend {
+    font-size: 16px;
+    color: #777879;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.cartao .newCard input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+}
+
+.cartao .newCard input.data {
+    width: 149px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.cartao .newCard input.cvc {
+    width: 86px;
+    height: 40px;    
+}
+
+.cartao .newCard button {
+    width: 100%;
+    padding: 15px;
+}
+
+.cartao ::-webkit-input-placeholder {
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}

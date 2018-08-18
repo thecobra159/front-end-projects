@@ -1,0 +1,152 @@
+<<<<<<< HEAD
+body {
+    background-color: #9b9b9b;   
+    padding: 45px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+th, td {
+    border: none;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 2px 5px #666;
+}
+
+table caption {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px -2px 5px #666;
+}
+
+table thead th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+table td, table th {
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+tbody td:first-child, thead th:first-child {
+    width: 50px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #eeeeee;
+}
+
+tfoot {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.54;
+}
+
+tfoot td {
+    padding-right: 20px;
+}
+
+tfoot td span {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+tfoot td img {
+    margin-left: 20px;
+}
+
+select {
+    border: none;
+    border-right-color: transparent;
+=======
+body {
+    background-color: #9b9b9b;   
+    padding: 45px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+th, td {
+    border: none;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 2px 5px #666;
+}
+
+table caption {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px -2px 5px #666;
+}
+
+table thead th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+table td, table th {
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+tbody td:first-child, thead th:first-child {
+    width: 50px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #eeeeee;
+}
+
+tfoot {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.54;
+}
+
+tfoot td {
+    padding-right: 20px;
+}
+
+tfoot td span {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+tfoot td img {
+    margin-left: 20px;
+}
+
+select {
+    border: none;
+    border-right-color: transparent;
+>>>>>>> 951bbfd7acced466c2f9d3c7628e291de1f5a881
+}

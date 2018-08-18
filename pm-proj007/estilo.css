@@ -1,0 +1,231 @@
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #ff3d7f;
+    border: 1px solid #ff3d7f;
+    border-radius: 3px;
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 6px 0px 0px #a32751;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* ------------------------------ */
+
+header {
+    margin-bottom: -100px;
+}
+
+header h1 {
+    margin: 0;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 78px;
+    margin-top: 10px;
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header nav ul{
+    padding-right: 80px;
+    margin: 0;
+    margin-top: 25px;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+header nav li:last-child {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px; 
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ------------------------------ */
+
+section#topo {
+    background-image: url(images/fundo.png);
+    background-size: cover;
+    height: 700px;    
+}
+
+section#topo .chamada {
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+section#topo .chamada h2{
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section#topo .chamada p{
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------------ */
+
+section#conheca {
+    padding: 70px;   
+}
+
+section#conheca .texto {
+    padding: 70px;    
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+section#conheca .texto h2 {
+    font-size: 36px;
+}
+
+section#conheca .texto p {
+    font-size: 24px;
+}
+
+section#conheca .texto a {
+    width: 50%;
+    font-size: 30px;
+}
+
+/* ------------------------------ */
+
+section#depoimento {
+    background-color: #ebe8fb;
+    border-top: 4px solid #511099;
+}
+
+section#depoimento .container{
+    flex-direction: column;   
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 50px;
+}
+
+section#depoimento p{
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+}
+
+/* ------------------------------ */
+
+section#convite {
+    padding: 150px;
+    background-image: url(images/fundo-convite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#convite form{
+    background-color: rgba(255, 255, 255, 0.9);    
+    padding: 10px;
+    width: 70%;
+    border-radius: 3px;
+    display: flex;
+}
+
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+section#convite input{
+    padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+}
+
+section#convite button{
+    background-image: url(images/botao-convite.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    width: 110px;
+    height: 43px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+section#convite span{
+    visibility: hidden;
+}
+
+/* ------------------------------ */
+
+footer .container {
+    background-color: #2a0157;
+    color: #fff;
+    padding: 30px;
+    margin-top: 4px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+@media(max-width: 600px){
+    header nav {
+        display: none;   
+    }
+    
+    header h1 {
+        margin-left: 20px;
+    }
+    
+    section#topo {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    section#conheca .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section#conheca .container .texto {
+        padding: 10px;
+    }
+    
+    section#conheca .container .texto a {
+        width: 100%;
+    }
+    
+    section#convite form {
+        display: block;
+        text-align: center;
+        width: 95%;
+    }
+}

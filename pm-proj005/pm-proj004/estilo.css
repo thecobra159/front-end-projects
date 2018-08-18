@@ -1,0 +1,84 @@
+<<<<<<< HEAD
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: #4a4a4a;
+    margin-bottom: 3px;
+    padding: 60px 60px 60px 100px;
+    background-image: url(pendente.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+
+li:hover {
+    background-color: #6e6e6e;
+}
+
+li.feito {
+    background-color: #27ae60;
+    background-image: url(feito.png);
+}
+
+li.feito:hover {
+    background-color: #52be7f;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+=======
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: #4a4a4a;
+    margin-bottom: 3px;
+    padding: 60px 60px 60px 100px;
+    background-image: url(pendente.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+
+li:hover {
+    background-color: #6e6e6e;
+}
+
+li.feito {
+    background-color: #27ae60;
+    background-image: url(feito.png);
+}
+
+li.feito:hover {
+    background-color: #52be7f;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+>>>>>>> 951bbfd7acced466c2f9d3c7628e291de1f5a881
+}
